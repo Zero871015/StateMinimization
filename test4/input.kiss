@@ -1,0 +1,56 @@
+.start_kiss
+.i 3
+.o 1
+.p 48
+.s 6
+.r state1
+000 state1 state5 001
+001 state1 state3 011
+010 state1 state2 100
+011 state1 state4 000
+100 state1 state4 001
+101 state1 state1 100
+110 state1 state4 101
+111 state1 state3 011
+000 state2 state3 101
+001 state2 state5 001
+010 state2 state5 101
+011 state2 state1 001
+100 state2 state2 110
+101 state2 state1 000
+110 state2 state5 111
+111 state2 state2 011
+000 state3 state3 101
+001 state3 state5 001
+010 state3 state5 101
+011 state3 state1 001
+100 state3 state2 110
+101 state3 state1 000
+110 state3 state5 111
+111 state3 state2 011
+000 state4 state2 010
+001 state4 state2 111
+010 state4 state5 010
+011 state4 state4 110
+100 state4 state2 011
+101 state4 state3 010
+110 state4 state1 101
+111 state4 state2 011
+000 state5 state3 010
+001 state5 state3 010
+010 state5 state4 000
+011 state5 state2 000
+100 state5 state4 001
+101 state5 state1 000
+110 state5 state4 110
+111 state5 state5 101
+000 state6 state5 001
+001 state6 state3 011
+010 state6 state2 100
+011 state6 state4 000
+100 state6 state4 001
+101 state6 state1 100
+110 state6 state4 101
+111 state6 state3 011
+.end_kiss
+

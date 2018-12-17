@@ -1,0 +1,26 @@
+digraph STG {
+	rankdir=LR;
+
+	INIT [shape=point];
+	state1 [label="state1"];
+	state2 [label="state2"];
+	state4 [label="state4"];
+	state5 [label="state5"];
+
+	INIT -> state1;
+	state1 -> state5 [label="000/001"];
+	state1 -> state2 [label="001/011,010/100,111/011"];
+	state1 -> state4 [label="011/000,100/001,110/101"];
+	state1 -> state1 [label="101/100"];
+	state2 -> state2 [label="000/101,100/110,111/011"];
+	state2 -> state5 [label="001/001,010/101,110/111"];
+	state2 -> state1 [label="011/001,101/000"];
+	state4 -> state2 [label="000/010,001/111,100/011,101/010,111/011"];
+	state4 -> state5 [label="010/010"];
+	state4 -> state4 [label="011/110"];
+	state4 -> state1 [label="110/101"];
+	state5 -> state2 [label="000/010,001/010,011/000"];
+	state5 -> state4 [label="010/000,100/001,110/110"];
+	state5 -> state1 [label="101/000"];
+	state5 -> state5 [label="111/101"];
+}
