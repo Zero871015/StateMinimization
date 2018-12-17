@@ -13,6 +13,9 @@ going to process a completely specified STG (i.e., STG without don't cares) in K
 and derive its minimum STG in KISS format and output your STG in DOT format.
 
 ---
+## What is fortest.cpp?
+* Just a program to generate test data.
+ * You can ignore it.
 
 ## How to use it in Liunx?
 * Download the file in your computer(OS:Linux).
